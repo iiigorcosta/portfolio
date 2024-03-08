@@ -1,0 +1,21 @@
+{
+    "type": "section",
+    "id": "about-list",
+    "languages": {
+                "class": "languages-list",
+                "title": "Linguagens",
+                "names": ["SQL", "Python", "Java", "Go", "Typescript"]
+    },
+    "frameworks": {
+                "class": "frameworks-lis",
+                "title":"Frameworks",
+                "names": ["React","React Native","Next.js","Node.js","Express.js","Django","Spring"]
+
+    },
+
+    "enviroments": {
+                "class":"enviroment-list",
+                "title":"Plataformas",
+                "names":["AWS","Google Cloud", "Azure","Digital Ocean"]
+    }
+}
