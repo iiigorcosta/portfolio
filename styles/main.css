@@ -89,7 +89,7 @@
 
   .page-title {
     text-align: center;
-    padding: 5% 5%;
+    padding: 2% 2%;
   }
 
   span {
@@ -139,19 +139,50 @@
     border-radius: 15px;
   }
 
-  .bibliography-section {
+  .contact-info {
     display: flex;
-    flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
   }
 
+  .contact {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    width: fit-content;
+    background-color: rgb(244, 243, 238);
+    border-radius: 15px;
+    padding: 2%;
+  }
+
+  .bibliography-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2%;
+  }
+
   .bibliography-column {
-    flex: 10%;
+    flex: 15%;
     padding-right: 3%;
   }
 
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+    background-color: rgb(245, 245, 245);
+  }
+
+  .services-items {
+    padding: 2%;
+    text-align: center;
+    line-height: 90%;
+  }
+
   footer {
+    position: fixed;
     font-weight: 100;
     text-align: center;
     bottom: 0;
@@ -166,13 +197,16 @@
       font-size: 22px;
       font-weight: 800;
     }
+
     h2 {
       font-size: 14px;
       font-weight: 600;
     }
+
     h3 {
       font-size: 10px;
     }
+
     a {
       font-size: 11px;
 
@@ -215,5 +249,9 @@
 
     .book {
       text-align: left;
+    }
+
+    .services {
+      padding: 20%;
     }
   }
