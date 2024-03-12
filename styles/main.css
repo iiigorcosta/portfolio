@@ -1,8 +1,10 @@
 * {
     font-family: Poppins;
   }
+
   body {
     font-size: 16px;
+    margin-left: 0;
   }
   
   header {
@@ -42,6 +44,7 @@
   }
   
   .nav-item:hover {
+    transform: scale(103%);
     color:aliceblue;
     background-color:black;
     border-radius: 6px;
@@ -58,33 +61,77 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 15px;
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
   }
   
   #contact-button:hover {
+    transform: scale(105%);
     color: white;
     background-color: green;
     border-color: green;
     border-radius: 15px;
+    transition-duration: 0.2s;
   }
 
   h1 {
-    text-align: center;
-    padding: 7% 7%;
+    font-size: 40px;
     font-weight: 800;
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
   }
 
   h3 {
     font-size: 14px;
   }
 
+  .page-title {
+    text-align: center;
+    padding: 5% 5%;
+  }
+
   span {
     color: rgba(175, 178, 186, 1);
   }
 
-  footer {
-    position: absolute;
+  .portfolio {
+    display: inline-flex;
+    background-color: rgb(245, 245, 245);
+    padding-left:2%;
+    padding-top: 2%;
+    height: 30rem;
+    width: 100%;
+  }
 
+  .portfolio-items {
+    max-height: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem 2rem auto 2rem;
+  }
+
+  .portfolio-img {
+    height: 290px;
+    width: 407px;
+    border-radius: 10px;
+  }
+
+  .portfolio-img:hover{
+    transform: scale(102%);
+    transition-duration: 0.2s;
+  }
+
+  .bibliography {
+    margin: 1%;
+    position: display-flex;
+    background-color: rgb(244, 243, 238);
+    padding: 1% 7% 1% 1%;
+    border-radius: 15px;
+  }
+
+  footer {
     font-weight: 100;
     text-align: center;
     bottom: 0;
@@ -92,5 +139,4 @@
     width: 100%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-
   }
