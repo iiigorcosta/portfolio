@@ -11,7 +11,7 @@
     display: flex;
     font-weight: 400;
     align-content: center;
-    margin: auto;
+    margin: 1%;
   }
   
   a {
@@ -87,23 +87,6 @@
     font-size: 14px;
   }
 
-  @media only screen and (max-width: 600px) {
-    h1 {
-      font-size: 18px;
-      font-weight: 800;
-    }
-    h2 {
-      font-size: 14px;
-      font-weight: 600;
-    }
-    h3 {
-      font-size: 7px;
-    }
-    a {
-      font-size: 14px;
-    }
-  }
-
   .page-title {
     text-align: center;
     padding: 5% 5%;
@@ -164,4 +147,47 @@
     width: 100%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 22px;
+      font-weight: 800;
+    }
+    h2 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    h3 {
+      font-size: 7px;
+    }
+    a {
+      font-size: 11px;
+      marginright: 1%;
+    }
+
+    nav {
+      justify-content: space-between;
+
+    }
+
+    .portfolio-img {
+      display:flex;
+      flex-wrap: wrap;
+      height: 217.5px;
+      width: 305.25px;
+      border-radius: 10px;
+    }
+
+    .nav-item {
+      padding-left: 2%;
+      padding-right: 2%;
+      white-space: wrap;
+      border-radius: 6px;
+    }
+
+    .nav-button {
+      padding-left: 2%;
+      padding-right: 2%;
+    }
   }
