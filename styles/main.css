@@ -78,6 +78,11 @@
     font-weight: 800;
   }
 
+  h1::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(253, 236, 190);
+  }
+
   h2 {
     font-size: 18px;
     font-weight: 800;
@@ -94,6 +99,11 @@
 
   span {
     color: rgba(175, 178, 186, 1);
+  }
+
+  span::selection {
+    color: rgb(170, 170, 170);
+    background: rgb(253, 236, 190);
   }
 
   .portfolio {
